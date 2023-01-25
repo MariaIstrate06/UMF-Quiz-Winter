@@ -105,6 +105,11 @@ def clean_up_string(str):
 #         i = clean_up_string(i)
 #         print(i)
 #
+
+# questions = [] => question array, each element contains a question
+# total_answers = [] => answ array, each element contains a set of answers
+# total_answers[i] = [] => cele 10 raspunsuri corespondente intrebarii i
+# is_correct = [] => is_correct[i * 10 + j] "true" daca raspunsul j de la intrebarea i este adevarat
 with open('data.json', 'w', encoding="utf-8") as file:
     file.write('{ \n "entries" : [ \n')
     for i in range(0, len(questions)):
