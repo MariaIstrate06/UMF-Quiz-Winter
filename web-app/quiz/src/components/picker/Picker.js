@@ -7,21 +7,10 @@ export const Picker = () => {
   return (
     <>
     <div className="main-container">
-        <div className="image-container">
-        <img src={Logo} alt="logo" style={{width: "60%", maxWidth: "300px"}}></img> 
-        </div>
-        <div className="page">
-        <button className="subject-button">
-            <Link to="/UMF-Quiz-Winter/card/anato">
-            Anatomie
-            </Link>
-        </button>
-        <button className="subject-button">
-            <Link to="/UMF-Quiz-Winter/card/diabet">
-            Diabet
-            </Link>
-        </button>
-        </div>
+      <div className="text">Această adresă nu mai este validă de la data de 25 ianuarie 2022. În cazul în care dorești să accesezi UMFQuiz, click mai jos. </div>
+        <a href="https://umfquizwinter.github.io/UMF-Quiz-Winter/">
+          <button className='subject-button'>Du-mă la <b>UMFQuiz</b></button>
+        </a>
     </div>
     </>
   );
